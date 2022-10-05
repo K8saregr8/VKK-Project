@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  .main {
+    box-sizing: border-box;
+  }
+  .header,
+  .topnav,
+  .container,
+  .footer {
+    float:left;
+    width: 100%;
+  }
+  /*header banner*/
+  .header {
+    position: relative;
+    background: #ccc;
+    padding: 0px;
+    text-align: center;
+  }
+  #web-banner{
+    width: 100%;
+  }
+  #icon1,#icon2,#icon3,#icon4{
+    width: 5%;
+    padding: 5px;
+    float: right;
+  }
+  .social-media-icons{
+    position:absolute ;
+    bottom: 8px;
+    right: 20px;
+  }
+/*Navagation bar can you help centre the text?*/
+  .topnav {
+    background:#cc5221;
+    text-align: center;
+  }
+  .topnav a {
+    color: #fff;
+    padding: 10px 10px;
+    display: inline-block;
+  }
+  .topnav a:hover {
+    background: #bbb;
+    color: #000;
+  }
+  
+  .topnav input[type = text]{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+  .main {
+    position: relative;
+    background: #ccc;
+    padding: 0px;
+    text-align: center; 
+  }
+  
+  #featured-text{
+  font-size: 60px;
+}
+  /*Articles Parts*/
+  .featured {
+    float: left;
+    margin: auto;
+  }
+  .lside {
+    width: 150px;
+    float: left;
+    
+  }
+  .rside {
+    width: 100px;
+    float: right;
+  }
+  .center {
+    text-align: center;
+  }
+  .lside,
+  .rside,
+  .center {
+    margin: 5px;
+    box-sizing: border-box;
+  }
+  .recently img{
+
+  }
+  /*footer*/
+  .footer {
+    padding: 10px;
+    background: #eb781b;
+    color: #fff;
+  }
+
+  @media screen and (max-width: 700px) {
+    .lside,
+    .rside,
+    .center {
+      width: 100%;
+      margin: 0px;
+    }
+  }
